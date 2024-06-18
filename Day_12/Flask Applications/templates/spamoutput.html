@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <table border = 2>
+            <tr><th>Result</th>
+                <td {% if data['result'] == 'spam' %}style= "color: red"{% else %}style= "color: blue"{% endif %}>
+                    {% if data['result'] == 'spam' %}
+                        SPAM!
+                    {% else %}
+                        HAM!
+                    {% endif %}
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
