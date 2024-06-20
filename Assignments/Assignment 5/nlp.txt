@@ -1,0 +1,71 @@
+CO3354 Introduction to natural language processing
+1.5 Software requirements
+This course assumes you have access to the Natural Language Toolkit (NLTK) either
+on your own computer or at your institution. The NLTK can be freely downloaded
+and it is strongly recommended that you install it on your own machine: Windows,
+Mac OSX and Linux distributions are available from http://nltk.org (last visited
+April 10th 2013) and some distributions of Linux have it in their package/software
+managers. Full instructions are available at the cited website along with details of
+associated packages which should also be installed, including Python itself which is
+also freely available. Once you have installed the software you should also download
+the required datasets as explained in the textbook (Bird et al., 2009, p. 3).
+You should check the NLTK website to determine what versions of Python are
+supported. Current stable releases of NLTK are compatible with Python 2.6 and 2.7.
+A version supporting Python 3 is under development and may be available for
+testing by the time you read this guide (as of April 2013).
+1.6 How to use the guide/structure of the course
+This section gives a brief summary of each chapter. These learning outcomes are
+listed at the beginning of each main chapter and assume that you have worked
+through the recommended readings and activities for that chapter.
+1.6.1 Chapter 2: Introducing NLP: patterns and structures in language
+This chapter looks at different approaches to analysing texts, ranging from ‘shallow’
+techniques that focus on individual words and phrases to ‘deeper’ methods that
+produce a full representation of the grammatical structure of a sentence as a
+hierarchical tree diagram. The chapter introduces two important formalisms:
+regular expressions , which will play an important part throughout the course, and
+context-free grammars which we return to in Chapter 6 of the subject guide.
+1.6.2 Chapter 3: Getting to grips with natural language data
+This chapter looks at the different kinds of data resources that can be used for
+developing tools to harvest information that has been published as machine-readable
+documents. In particular, we introduce the notion of a ‘corpus’ (plural corpora ) – for
+the purposes of this course, a computer-readable collection of text or speech. The
+NLTK includes a selection of excerpts from several well-known corpora and we
+provide brief descriptions of the most important of these and of the different formats
+in which corpora are stored.
+8 What the course does not cover
+1.6.3 Chapter 4: Computational tools for text analysis
+The previous chapter introduced some relatively superﬁcial techniques for language
+analysis such as concordancing and collocations. This chapter covers some
+fundamental operations in text analysis:
+tokenisation: breaking up a character string into words, punctuation marks and
+other meaningful expressions;
+stemming: removing afﬁxes from words, e.g. mean+ing ,distribut+ion ;
+tagging: associating each word in a text with a grammatical category or part of
+speech.
+1.6.4 Chapter 5: Statistically-based techniques for text analysis
+Statistical and probabilistic methods are pervasive in modern computational
+linguistics. These methods generally do not aim at complete understanding or
+analysis of a text, but at producing reliable answers to well-deﬁned problems such as
+sentiment analysis, topic detection or recognising named entities and relations
+between them in a text.
+1.6.5 Chapter 6: Analysing sentences: syntax and parsing
+This chapter resumes the discussion of natural language syntax that was introduced
+in Chapter 2, concentrating on context-free grammar formalisms and various ways
+they need to be modiﬁed and extended beyond the model that was presented in that
+chapter. Formal grammars do not encode any kind of processing strategy but simply
+provide a declarative speciﬁcation of the well-formed sentences in a language.
+Parsers are computer programs that use grammar rules to analyse sentences, and
+this chapter introduces some fundamental approaches to syntactic parsing.
+1.6.6 Appendices
+The Appendices include:
+A. A bibliography listing all works referenced in the subject guide, including
+publication details and ISBNs.
+B. A glossary of technical terms used in this subject guide.
+C. Answers to selected activities.
+D. A trace of a recursive descent parse as described in Chapter 6 of the subject guide.
+E. A sample examination paper with guidelines on how to answer questions.
+1.7 What the course does not cover
+The ﬁeld of natural language processing or computational linguistics is a large and
+diverse one, and includes many topics we will not be able to address in this course.
+Some of these are listed below:
+9
